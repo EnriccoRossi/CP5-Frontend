@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Enricco">
+    <meta name="description" content="Site feito com Bootstrap">
+    <meta name="keywords" content="CSS3, HTML5, Bootstrap, FIAP">
+    <title>Receitas na pandemia</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Menu -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+    <a class="navbar-brand" href="#">
+        <img src="imagens/logocerto.png" alt="Logotipo" width="50">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="receitas.html">Receitas</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Carrossel de Imagens com Caption -->
+<div id="newsCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicadores -->
+    <ol class="carousel-indicators"> 
+        <li data-target="#newsCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#newsCarousel" data-slide-to="1"></li>
+        <li data-target="#newsCarousel" data-slide-to="2"></li>
+    </ol>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="imagens/cozinha2.jpg" alt="Notícia 1" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="imagens/cozinha3.jpg" alt="Notícia 2" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="imagens/cozinha4.jpg" alt="Notícia 3" class="d-block w-100">
+        </div>
+    </div>
+
+    <!-- Controles -->
+    <a class="carousel-control-prev" href="#newsCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+    </a>
+    <a class="carousel-control-next" href="#newsCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Próximo</span>
+    </a>
+</div>
+<!-- Section -->
+<section class="container mt-5">
+    <article class="row">
+        <!-- Imagem -->
+        <div class="col-md-6">
+            <img src="imagens/cozinha1.jpg" alt="Imagem Descrição" class="img-fluid">
+        </div>
+        <!-- textos -->
+        <div class="col-md-6">
+            <h2>Importância da cozinha na pandemia </h2>
+            <p> Durante a pandemia global, a cozinha emergiu como um refúgio fundamental nas vidas das pessoas, desempenhando um papel central em nossa jornada através de tempos difíceis. O ato de cozinhar, antes apenas uma parte comum da rotina diária, ganhou uma nova e profunda importância, impactando positivamente nossa saúde física, mental e emocional.
+                <br><br>
+                Com o distanciamento social e as restrições de movimento, muitos de nós passamos períodos prolongados em casa, afastados de restaurantes e da comida pronta. Isso nos levou a redescobrir nossas cozinhas, e com essa redescoberta vieram uma série de benefícios surpreendentes. Primeiramente, a cozinha se tornou uma terapia valiosa. O ato de escolher ingredientes, preparar uma receita e saborear a recompensa proporcionou uma sensação de realização e controle em um mundo incerto.
+                <br><br>
+                Além disso, cozinhar em casa promoveu hábitos alimentares mais saudáveis. Com mais tempo para planejar refeições e acesso a ingredientes frescos, muitos optaram por opções mais equilibradas e nutritivas. Isso não apenas contribuiu para uma melhor saúde física, mas também para o fortalecimento do sistema imunológico, uma consideração crucial em tempos de pandemia.
+                <br><br>
+                A cozinha também se tornou um ponto de encontro virtual. Com o distanciamento social, as pessoas compartilhavam receitas e dicas de culinária online, criando uma comunidade culinária global. Live streams de chefs e programas de culinária se multiplicaram, permitindo que as pessoas aprendessem novas habilidades e se inspirassem na cozinha. Em resumo, cozinhar durante a pandemia transcendeu a simples preparação de alimentos, tornando-se um ato terapêutico, saudável, econômico e socialmente conectado. Foi uma demonstração de resiliência e adaptabilidade em tempos desafiadores, mostrando que, mesmo diante da adversidade, podemos encontrar conforto e alegria em nossas cozinhas.
+                <br><br>
+                <a href="receitas.html" class="btn btn-primary">Conheça nossas receitas!</a>
+        </div>
+    </article>
+</section>
+<footer class="bg-dark text-white pt-4 mt-5">
+    <div class="container">
+        <div class="row">
+            <!-- Coluna 1 -->
+            <div class="col-md-3 mb-4">
+                <h5>Links Rápidos</h5>
+                <ul class="list-unstyled">
+                    <li><a href="index.html" class="text-white">Home</a></li>
+                    <li><a href="receitas.html" class="text-white">Receitas</a></li>
+                </ul>
+            </div>
+            <!-- Coluna 2 -->
+            <div class="col-md-3 mb-4">
+                <h5>Contato</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">receitas@pandemia.com</a></li>
+                    <li><a href="#" class="text-white">+55 11 9 4002-8922</a></li>
+                    <li><a href="#" class="text-white">Rua receitas: 99</a></li>
+                </ul>
+            </div>
+            <!-- Coluna 3 -->
+            <div class="col-md-3 mb-4">
+                <h5>Redes Sociais</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Facebook</a></li>
+                    <li><a href="#" class="text-white">Youtube</a></li>
+                    <li><a href="#" class="text-white">Instagram</a></li>
+                </ul>
+            </div>
+            <!-- Coluna 4 -->
+            <div class="col-md-3 mb-4">
+                <h5>Novas receitas: </h5>
+                <p>Caso tenha alguma receita para nos mandar por favor coloque seu e-mail abaixo que entraremos em contato: </p>
+                <form>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="Digite seu e-mail">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <hr class="bg-white mb-2">
+        <div class="row d-flex justify-content-center">
+            <p>Receitas na pandemia - CC</p>
+        </div>
+    </div>
+</footer>
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

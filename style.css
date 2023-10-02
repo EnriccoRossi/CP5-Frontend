@@ -1,0 +1,13 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('img/triangles_pattern.webp');
+}
+.breadcrumb{background-color: transparent;}
+
+.img-fluid{
+    border-radius: 20px;
+}
+
+.img-comidas{
+    max-width: 1200px;
+}
